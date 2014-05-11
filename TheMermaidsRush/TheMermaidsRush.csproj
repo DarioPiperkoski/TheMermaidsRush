@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{60EC3D13-BE37-458F-A03A-AA47364E1C6B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TheMermaidsRush</RootNamespace>
+    <AssemblyName>TheMermaidsRush</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Exit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exit.Designer.cs">
+      <DependentUpon>Exit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameOver.Designer.cs">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HighScores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HighScores.Designer.cs">
+      <DependentUpon>HighScores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HighScoresEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HighScoresEntry.Designer.cs">
+      <DependentUpon>HighScoresEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HowToPlay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HowToPlay.Designer.cs">
+      <DependentUpon>HowToPlay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mine.cs" />
+    <Compile Include="Note.cs" />
+    <Compile Include="Pause.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pause.Designer.cs">
+      <DependentUpon>Pause.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Play.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Play.Designer.cs">
+      <DependentUpon>Play.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Exit.resx">
+      <DependentUpon>Exit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameOver.resx">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HighScores.resx">
+      <DependentUpon>HighScores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HighScoresEntry.resx">
+      <DependentUpon>HighScoresEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HowToPlay.resx">
+      <DependentUpon>HowToPlay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pause.resx">
+      <DependentUpon>Pause.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Play.resx">
+      <DependentUpon>Play.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExitBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HighScoreEntry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HighScoresBack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HowToPlay.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainMenuBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mine.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\No.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Note.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pausebtn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play again.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoundOff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoundOn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Try again.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MineExplosion.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoteCollected.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HowToPlayBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HighScore.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameOver.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif-save %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif-save %288%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif-save %2811%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif-save %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bUmdDG1399469194.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1cUcjZ1399586562.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grenade-SoundBible.com-1777900486.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundMusic.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TheMermaidsRush.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="HighScore1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="HighScore2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="HighScore3" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="HighScore4" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="HighScore5" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Name1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Unnamed</Value>
+    </Setting>
+    <Setting Name="Name2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Unnamed</Value>
+    </Setting>
+    <Setting Name="Name3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Unnamed</Value>
+    </Setting>
+    <Setting Name="Name4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Unnamed</Value>
+    </Setting>
+    <Setting Name="Name5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Unnamed</Value>
+    </Setting>
+    <Setting Name="Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

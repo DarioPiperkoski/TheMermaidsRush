@@ -1,0 +1,19 @@
+C:\Users\User\documents\visual studio 2010\Projects\TheMermaidsRush\TheMermaidsRush\obj\x86\Debug\TheMermaidsRush.Exit.resources
+C:\Users\User\documents\visual studio 2010\Projects\TheMermaidsRush\TheMermaidsRush\obj\x86\Debug\TheMermaidsRush.GameOver.resources
+C:\Users\User\documents\visual studio 2010\Projects\TheMermaidsRush\TheMermaidsRush\obj\x86\Debug\TheMermaidsRush.HighScores.resources
+C:\Users\User\documents\visual studio 2010\Projects\TheMermaidsRush\TheMermaidsRush\obj\x86\Debug\TheMermaidsRush.HighScoresEntry.resources
+C:\Users\User\documents\visual studio 2010\Projects\TheMermaidsRush\TheMermaidsRush\obj\x86\Debug\TheMermaidsRush.HowToPlay.resources
+C:\Users\User\documents\visual studio 2010\Projects\TheMermaidsRush\TheMermaidsRush\obj\x86\Debug\TheMermaidsRush.MainMenu.resources
+C:\Users\User\documents\visual studio 2010\Projects\TheMermaidsRush\TheMermaidsRush\obj\x86\Debug\TheMermaidsRush.Pause.resources
+C:\Users\User\documents\visual studio 2010\Projects\TheMermaidsRush\TheMermaidsRush\obj\x86\Debug\TheMermaidsRush.Properties.Resources.resources
+C:\Users\User\documents\visual studio 2010\Projects\TheMermaidsRush\TheMermaidsRush\obj\x86\Debug\TheMermaidsRush.csproj.GenerateResource.Cache
+C:\Users\User\documents\visual studio 2010\Projects\TheMermaidsRush\TheMermaidsRush\bin\Debug\TheMermaidsRush.exe
+C:\Users\User\documents\visual studio 2010\Projects\TheMermaidsRush\TheMermaidsRush\bin\Debug\TheMermaidsRush.pdb
+C:\Users\User\documents\visual studio 2010\Projects\TheMermaidsRush\TheMermaidsRush\obj\x86\Debug\TheMermaidsRush.Play.resources
+C:\Users\User\documents\visual studio 2010\Projects\TheMermaidsRush\TheMermaidsRush\obj\x86\Debug\TheMermaidsRush.exe
+C:\Users\User\documents\visual studio 2010\Projects\TheMermaidsRush\TheMermaidsRush\obj\x86\Debug\TheMermaidsRush.pdb
+C:\Users\User\documents\visual studio 2010\Projects\TheMermaidsRush\TheMermaidsRush\bin\Debug\TheMermaidsRush.exe.config
+C:\Users\User\Documents\Visual Studio 2010\Projects\TheMermaidsRush\TheMermaidsRush\obj\x86\Debug\TheMermaidsRush.csprojResolveAssemblyReference.cache
+C:\Users\Martin\Desktop\TheMermaidsRush\TheMermaidsRush\bin\Debug\TheMermaidsRush.exe.config
+C:\Users\Martin\Desktop\TheMermaidsRush\TheMermaidsRush\obj\x86\Debug\TheMermaidsRush.exe
+C:\Users\Martin\Desktop\TheMermaidsRush\TheMermaidsRush\obj\x86\Debug\TheMermaidsRush.pdb
