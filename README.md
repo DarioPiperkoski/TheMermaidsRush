@@ -1,7 +1,6 @@
 #The Mermaid`s Rush 
 
- ![](http://postimg.org/image/c0if1puxr/)
- 
+![alt tag](http://postimg.org/image/c0if1puxr.jpg/)
 ##Опис на играта
 
 
