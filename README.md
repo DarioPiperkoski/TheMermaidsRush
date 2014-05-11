@@ -23,8 +23,7 @@
     ![alt tag]         (http://s15.postimg.org/nwdum983f/tryagain.jpg)
      ![alt tag]         (http://s24.postimg.org/ksj6848tx/hse.jpg)
      ![alt tag]         (http://s11.postimg.org/5i7tl26hf/High_Scores.jpg)
-     ![alt tag]         (http://postimg.org/image/be7uv0vrz/)
-     
+     ![alt tag]         (http://s27.postimg.org/v8twh5azn/Exit.jpg)
  
  
  
