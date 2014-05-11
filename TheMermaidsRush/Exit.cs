@@ -24,6 +24,7 @@ namespace TheMermaidsRush
             btnNo.Location = p;
             btnNo.Height = 40;
             btnNo.Width = 150;
+            //.......
         }
 
         private void btnYes_Click(object sender, EventArgs e)
