@@ -32,7 +32,6 @@
       ![alt tag]         (http://s11.postimg.org/5i7tl26hf/High_Scores.jpg)
       
    Доколку сакате да ја исклучите играта, односно го кликнете копчето "Exit" ќе ви се појави следната форма, каде доколку одберете "Yes" ви се гаси играта.
-   
        ![alt tag]         (http://s27.postimg.org/v8twh5azn/Exit.jpg)
  
  
